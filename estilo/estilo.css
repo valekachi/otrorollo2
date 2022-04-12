@@ -82,6 +82,15 @@ body {
                 opacity: 1;
         }
 }
+
+.animate__backInRight {
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+}
+.animate__backInLeft {
+        animation-duration: 3s;
+        animation-delay: 2s;
+}
 .aparecer {
         animation-name: textoaparece;
         animation-duration: 7s;
@@ -91,6 +100,7 @@ a:visited{
          color: white;
         }       
 a:hover {
+        background-color: #613033;
         border-radius: 10px;
         padding: 10px;
         }
