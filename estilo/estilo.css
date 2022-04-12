@@ -82,7 +82,10 @@ body {
                 opacity: 1;
         }
 }
-
+.animate__rotateIn {
+        animation-duration: 1s;
+        animation-delay: 0.25s;
+}
 .animate__backInRight {
         animation-duration: 3s;
         animation-delay: 0.5s;
