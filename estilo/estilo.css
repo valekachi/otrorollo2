@@ -175,13 +175,13 @@ a {
         text-align: center;
         letter-spacing: 2px;  
         word-spacing: 1px;
-        background-image: url('./images/otro1.jpg');
+        background-image: url('../images/otro1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         margin: 5px;             
 }
 .fondoBarcoPirata {
-        background-image: url('./images/barcopirata.jpeg');
+        background-image: url('../images/barcopirata.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         margin: 5px;        
