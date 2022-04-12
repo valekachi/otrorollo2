@@ -91,7 +91,6 @@ a:visited{
          color: white;
         }       
 a:hover {
-        background-image: linear-gradient(to bottom, #1a1a1a,#613033);
         border-radius: 10px;
         padding: 10px;
         }
