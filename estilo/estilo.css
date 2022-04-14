@@ -58,7 +58,9 @@ body {
         font-size: 12px;
         flex-wrap: wrap;
 }
-
+.bg-dark {
+        background-color: #1a1a1a;
+}
 .navlink {
         margin: 5px;
         padding: 2px;   
@@ -73,6 +75,7 @@ body {
         align-content: flex-start;
         padding: 12px;
         margin: 12px 4px 4px 4px;
+        border-radius: 50px;
 }
 @keyframes textoaparece {
         0% {
