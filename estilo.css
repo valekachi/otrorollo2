@@ -34,7 +34,7 @@ nav {
     margin: 10px;
     padding: 5px;
 }
-.textoBordo {
+.textoBordo  {
     color:#613033;
     font-weight: 900;
     background-color: #1a1a1a;
@@ -44,5 +44,8 @@ nav {
     margin: 50px;
 }
 .otrorollotitulo {
-    margin: 150px;
+    margin-top: 150px;
+}
+.margin-left {
+    margin-left: 40px;
 }
