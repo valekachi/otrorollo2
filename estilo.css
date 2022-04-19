@@ -8,14 +8,20 @@ body {
     background-size: cover;
     position: relative;
 }
+.tamañoLogo {
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+}
 .link-white {
     text-decoration: none;
     color: white;
 }
 .link-white:hover {
-    color: #613033;
+    background-color: #613033;
     text-decoration: none;
     transform: scale(1.2);
+    border-radius: 10px;
 }
 .home-list {
     list-style-type: none;
@@ -43,13 +49,42 @@ nav {
 .margenTexto {
     margin: 50px;
 }
-.otrorollotitulo {
-    margin-top: 150px;
+.margenDeArriba {
+    margin-top: 50px;
 }
 .margin-left {
     margin-left: 40px;
 }
-.tamañoImagen {
-    width: 200px;
-    height: 123px;
+.logoRedes {
+    width: 30px;
+    height: 30px;
 }
+.imagenVentana {
+    padding: 20px;
+}
+img:not(.logoRedes) {
+  opacity: 0;
+  animation-name: bounceIn;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+
+}
+@keyframes bounceIn{
+    0%{
+      opacity: 0;
+      transform: scale(1.2) translate3d(0,0,0);
+    }
+    50%{
+      opacity: 0.9;
+      transform: scale(1.5);
+    }
+    80%{
+      opacity: 1;
+      transform: scale(1.6);
+    }
+    100%{
+      opacity: 1;
+      transform: scale(1.0) translate3d(0,0,0);
+    }
+  }
