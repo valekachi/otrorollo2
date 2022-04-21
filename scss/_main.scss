@@ -1,0 +1,109 @@
+@import 'scss/variables';
+div {
+    .otroRolloTitulo {
+        padding: 8px;
+        margin: 40px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+div {
+    .bienvenidx {
+        padding: 7px;
+        margin: 30px;
+        font-size: 25px;
+        background-color: $color;
+        opacity: 0.9;
+        border-radius: 10px;
+    }
+}
+
+div {
+    .tamañoLogo {
+        width: 200px;
+        height: 200px;
+        padding: 2px;
+    }
+}
+div {
+    .fondoBordo {
+        background-color: $color;
+        opacity: 0.9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+        margin: 20px;
+            p {
+                padding: 7px;
+                margin: 30px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+div {
+    .nuestrosPrincipios {
+        background: #1a1a1a;
+        opacity: 0.9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+        color:white;
+    }
+}
+
+div {
+    .revelarJuntos {
+        background-color: $color;
+        border-radius: 12px;
+        padding: 10px;
+        margin: 10px;
+        color:#1a1a1a;
+        font-weight: 900;
+    }
+}
+div {
+    .descubrirGaleria {
+        background-color:#1a1a1a;
+        opacity: 0.9;
+        color:white;
+        border-radius: 12px;
+        text-align: center;
+            h1 {
+                color: #1a1a1a;
+                font-size: 20px;
+                background-color: $color;
+                border-radius: 15px;
+            }
+            a {
+                text-decoration: none;
+                color:#1a1a1a;
+                background-color: $color;
+                border-radius: 15px;
+                
+                    &:hover {
+                        background-color: white;
+                        text-decoration: none;
+                        transform: scale(1.2);
+                        border-radius: 10px;
+                        opacity: 1;
+                        text-decoration: none;
+                            &:visited {
+                                text-decoration: none;
+
+
+    
+                            }
+                    }
+            }
+
+
+    }
+}
