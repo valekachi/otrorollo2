@@ -30,21 +30,20 @@ nav {
             border-radius: 10px;
             opacity: 1; }
 
-div .otroRolloTitulo {
-  padding: 8px;
-  margin: 40px;
-  border-radius: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-div .bienvenidx {
+div .otroRolloTitulo, div .bienvenidx {
   padding: 7px;
   margin: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
-  background-color: #613033;
-  opacity: 0.9;
-  border-radius: 10px; }
+  background-color: #1a1a1a;
+  color: white;
+  opacity: 0.9; }
+
+div .bienvenidx {
+  background-color: #613033; }
 
 div .tamañoLogo {
   width: 200px;
@@ -66,7 +65,7 @@ div .fondoBordo {
     justify-content: center; }
 
 div .nuestrosPrincipios {
-  background: #1a1a1a;
+  background-color: #1a1a1a;
   opacity: 0.9;
   display: flex;
   justify-content: center;
@@ -77,7 +76,7 @@ div .nuestrosPrincipios {
   color: white; }
 
 div .revelarJuntos {
-  background-color: #613033;
+  background-color: gray;
   border-radius: 12px;
   padding: 10px;
   margin: 10px;
@@ -94,12 +93,12 @@ div .descubrirGaleria {
     color: #1a1a1a;
     font-size: 20px;
     background-color: #613033;
-    border-radius: 15px; }
+    border-radius: 10px; }
   div .descubrirGaleria a {
     text-decoration: none;
     color: #1a1a1a;
     background-color: #613033;
-    border-radius: 15px; }
+    border-radius: 10px; }
     div .descubrirGaleria a:hover {
       background-color: white;
       text-decoration: none;
@@ -113,16 +112,17 @@ div .descubrirGaleria {
 footer {
   background-color: #1a1a1a; }
   footer div {
-    color: white; }
-  footer .logoRedes {
-    width: 30px;
-    height: 30px;
-    margin-left: 50px;
-    padding: 5px; }
-    footer .logoRedes .textoFooter {
-      color: white;
-      opacity: 1;
-      font-size: medium; }
+    color: white;
+    opacity: 0.9; }
+    footer div .logoRedes {
+      width: 30px;
+      height: 30px;
+      margin-left: 50px;
+      padding: 5px; }
+      footer div .logoRedes .textoFooter {
+        color: white;
+        opacity: 1;
+        font-size: medium; }
 
 img:not(.logoRedes) {
   opacity: 0;

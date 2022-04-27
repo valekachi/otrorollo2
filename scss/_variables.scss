@@ -1,1 +1,18 @@
 $color: #613033;
+$padding: 7px;
+$negro: #1a1a1a;
+$gris: gray;
+
+$cuadros:(
+            "color": $color,
+            "negro": $negro,
+            "gris": $gris,
+);
+
+@mixin centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

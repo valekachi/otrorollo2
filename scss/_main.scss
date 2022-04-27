@@ -1,23 +1,23 @@
 @import 'scss/variables';
 div {
     .otroRolloTitulo {
-        padding: 8px;
-        margin: 40px;
-        border-radius: 30px;
+        padding: $padding;
+        margin: 30px;
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 25px;
+        background-color: map-get($cuadros,"negro");
+        color: white;
+        opacity: 0.9;
     }
 }
 
 div {
     .bienvenidx {
-        padding: 7px;
-        margin: 30px;
-        font-size: 25px;
-        background-color: $color;
-        opacity: 0.9;
-        border-radius: 10px;
+        @extend .otroRolloTitulo; 
+        background-color: map-get($cuadros,"color");
     }
 }
 
@@ -30,11 +30,9 @@ div {
 }
 div {
     .fondoBordo {
-        background-color: $color;
+        background-color: map-get($cuadros, "color");
         opacity: 0.9;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include centrado;
         color: whitesmoke;
         margin: 20px;
             p {
@@ -47,7 +45,7 @@ div {
     }
 div {
     .nuestrosPrincipios {
-        background: #1a1a1a;
+        background-color: map-get($cuadros,"negro");
         opacity: 0.9;
         display: flex;
         justify-content: center;
@@ -57,16 +55,18 @@ div {
         margin: 10px;
         color:white;
     }
-}
+    }
+
 
 div {
     .revelarJuntos {
-        background-color: $color;
+        background-color: map-get($cuadros,"gris");
         border-radius: 12px;
         padding: 10px;
         margin: 10px;
         color:#1a1a1a;
         font-weight: 900;
+        
     }
 }
 div {
@@ -80,13 +80,13 @@ div {
                 color: #1a1a1a;
                 font-size: 20px;
                 background-color: $color;
-                border-radius: 15px;
+                border-radius: 10px;
             }
             a {
                 text-decoration: none;
                 color:#1a1a1a;
                 background-color: $color;
-                border-radius: 15px;
+                border-radius: 10px;
                 
                     &:hover {
                         background-color: white;
