@@ -1,6 +1,13 @@
 @import 'scss/variables';
 footer {
-    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $negro;
+    bottom: 0px;
+    nav {
+      background-color: $negro;
+    }
         div {
             color: white;
             opacity: 0.9;
@@ -43,3 +50,14 @@ img:not(.logoRedes) {
         transform: scale(1.0) translate3d(0,0,0);
       }
     }
+    
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  i {
+    background-color: $negro;
+    color: white;
+
+  }
+}

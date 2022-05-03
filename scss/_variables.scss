@@ -1,7 +1,8 @@
-$color: #613033;
+$color: #603A3B;
 $padding: 7px;
 $negro: #1a1a1a;
 $gris: gray;
+$colorsecundario: #211A19;
 
 $cuadros:(
             "color": $color,
@@ -14,5 +15,14 @@ $cuadros:(
     justify-content: center;
     align-items: center;
 }
-
+@mixin cuadroshome {
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    font-weight: 900;  
+}
 

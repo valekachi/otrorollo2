@@ -1,0 +1,26 @@
+@import 'scss/variables';
+
+.tarjetas {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5rem;
+        margin: 5rem;
+        background-color: $colorsecundario;  
+        opacity: 0.9;  
+            .revelando {
+                background-color: $negro;
+                color: white;
+            }
+}
+.queresRevelar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorsecundario;
+    color: white;
+    padding: 2.5rem;
+    margin: 5rem;
+    font-size: larger;
+    opacity: 0.9;
+}

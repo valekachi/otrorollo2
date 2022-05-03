@@ -24,7 +24,7 @@ nav {
           color: white;
           font-size: 20px; }
           nav div ul li a:hover {
-            background-color: #613033;
+            background-color: #603A3B;
             text-decoration: none;
             transform: scale(1.2);
             border-radius: 10px;
@@ -33,17 +33,14 @@ nav {
 div .otroRolloTitulo, div .bienvenidx {
   padding: 7px;
   margin: 30px;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 25px;
-  background-color: #1a1a1a;
   color: white;
-  opacity: 0.9; }
-
-div .bienvenidx {
-  background-color: #613033; }
+  opacity: 0.9;
+  object-fit: cover;
+  background-color: #1a1a1a; }
 
 div .tamañoLogo {
   width: 200px;
@@ -51,7 +48,7 @@ div .tamañoLogo {
   padding: 2px; }
 
 div .fondoBordo {
-  background-color: #613033;
+  background-color: #603A3B;
   opacity: 0.9;
   display: flex;
   justify-content: center;
@@ -70,7 +67,6 @@ div .nuestrosPrincipios {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
   padding: 10px;
   margin: 10px;
   color: white; }
@@ -92,12 +88,12 @@ div .descubrirGaleria {
   div .descubrirGaleria h1 {
     color: #1a1a1a;
     font-size: 20px;
-    background-color: #613033;
+    background-color: #603A3B;
     border-radius: 10px; }
   div .descubrirGaleria a {
     text-decoration: none;
     color: #1a1a1a;
-    background-color: #613033;
+    background-color: #603A3B;
     border-radius: 10px; }
     div .descubrirGaleria a:hover {
       background-color: white;
@@ -110,7 +106,13 @@ div .descubrirGaleria {
         text-decoration: none; }
 
 footer {
-  background-color: #1a1a1a; }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  bottom: 0px; }
+  footer nav {
+    background-color: #1a1a1a; }
   footer div {
     color: white;
     opacity: 0.9; }
@@ -144,3 +146,34 @@ img:not(.logoRedes) {
   100% {
     opacity: 1;
     transform: scale(1) translate3d(0, 0, 0); } }
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  a i {
+    background-color: #1a1a1a;
+    color: white; }
+
+.tarjetas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5rem;
+  margin: 5rem;
+  background-color: #211A19;
+  opacity: 0.9; }
+  .tarjetas .revelando {
+    background-color: #1a1a1a;
+    color: white; }
+
+.queresRevelar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #211A19;
+  color: white;
+  padding: 2.5rem;
+  margin: 5rem;
+  font-size: larger;
+  opacity: 0.9; }

@@ -2,22 +2,24 @@
 div {
     .otroRolloTitulo {
         padding: $padding;
-        margin: 30px;
-        border-radius: 10px;
+       margin: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 25px;
-        background-color: map-get($cuadros,"negro");
         color: white;
         opacity: 0.9;
+        object-fit: cover;
+        background-color: $negro;
+        
     }
 }
 
 div {
     .bienvenidx {
         @extend .otroRolloTitulo; 
-        background-color: map-get($cuadros,"color");
+
+        
     }
 }
 
@@ -50,7 +52,6 @@ div {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 8px;
         padding: 10px;
         margin: 10px;
         color:white;
@@ -107,3 +108,4 @@ div {
 
     }
 }
+
