@@ -5,26 +5,36 @@ footer {
     justify-content: center;
     background-color: $negro;
     bottom: 0px;
-    nav {
+    .pieDePagina {
       background-color: $negro;
-    }
         div {
             color: white;
-            opacity: 0.9;
+            background-color: $negro;
     .logoRedes {
         width: 30px;
         height: 30px;
         margin-left: 50px;
         padding: 5px;
+        background-color: $negro;
         .textoFooter {
             color:white;
             opacity: 1;
             font-size: medium;
+            background-color: $negro;
         }
     }
 }
 }
-img:not(.logoRedes) {
+}
+div {
+  a {
+    text-decoration: none;
+    i {
+      color: white;
+    }
+  }
+}
+/*img:not(.logoRedes) {
     opacity: 0;
     animation-name: bounceIn;
     animation-duration: 1s;
@@ -32,7 +42,7 @@ img:not(.logoRedes) {
     animation-fill-mode: forwards;
   
   }
-  @keyframes bounceIn{
+  /*@keyframes bounceIn{
       0%{
         opacity: 0;
         transform: scale(1.2) translate3d(0,0,0);
@@ -51,13 +61,9 @@ img:not(.logoRedes) {
       }
     }
     
-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
   i {
-    background-color: $negro;
     color: white;
 
   }
-}
+*/

@@ -1,109 +1,98 @@
 @charset "UTF-8";
 body {
-  font-family: 'Poppins', sans-serif; }
+  /*font-family: 'Poppins', sans-serif;*/
+  background-color: #1a1a1a;
+  box-sizing: content-box; }
 
 .index-fondo {
   width: 100%;
   height: 100vh;
-  background-image: url("https://static.wixstatic.com/media/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg/v1/fill/w_734,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.wixstatic.com/media/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg/v1/fill/w_734,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg");
   background-size: cover;
   position: relative; }
 
-nav {
-  background-color: #1a1a1a;
-  opacity: 0.7; }
-  nav div {
-    padding: 3px; }
-    nav div ul {
-      list-style-type: none;
-      padding: 2px; }
-      nav div ul li {
-        padding: 5px; }
-        nav div ul li a {
-          text-decoration: none;
-          color: white;
-          font-size: 20px; }
-          nav div ul li a:hover {
-            background-color: #603A3B;
-            text-decoration: none;
-            transform: scale(1.2);
-            border-radius: 10px;
-            opacity: 1; }
-
-div .otroRolloTitulo, div .bienvenidx {
-  padding: 7px;
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  color: white;
-  opacity: 0.9;
-  object-fit: cover;
-  background-color: #1a1a1a; }
-
 div .tamañoLogo {
-  width: 200px;
-  height: 200px;
+  width: 80px;
+  height: 80px;
   padding: 2px; }
 
-div .fondoBordo {
-  background-color: #603A3B;
-  opacity: 0.9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: whitesmoke;
-  margin: 20px; }
-  div .fondoBordo p {
-    padding: 7px;
-    margin: 30px;
-    display: flex;
-    justify-content: center; }
-
-div .nuestrosPrincipios {
-  background-color: #1a1a1a;
-  opacity: 0.9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-  color: white; }
-
-div .revelarJuntos {
-  background-color: gray;
-  border-radius: 12px;
-  padding: 10px;
-  margin: 10px;
+nav {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(85, 77, 77, 0.7)), url("https://static.wixstatic.com/media/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg/v1/fill/w_734,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg");
   color: #1a1a1a;
-  font-weight: 900; }
+  opacity: 0.9; }
+  nav div {
+    padding: 1px;
+    color: #1a1a1a; }
+    nav div ul {
+      list-style-type: none;
+      padding: 1px; }
+      nav div ul li {
+        padding: 2px; }
+        nav div ul li a {
+          text-decoration: none;
+          font-size: 18px; }
+          nav div ul li a:hover {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.wixstatic.com/media/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg/v1/fill/w_734,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg");
+            text-decoration: none;
+            /*transform: scale(1.2);*/
+            border-radius: 5px;
+            opacity: 1;
+            color: #CEC2C2; }
+            nav div ul li a:hover:visited {
+              text-decoration: none; }
 
-div .descubrirGaleria {
-  background-color: #1a1a1a;
-  opacity: 0.9;
-  color: white;
-  border-radius: 12px;
-  text-align: center; }
-  div .descubrirGaleria h1 {
-    color: #1a1a1a;
+div .tituloIndex {
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 4px;
+  word-spacing: 2px;
+  color: #CEC2C2;
+  font-size: 65px;
+  font-weight: bolder;
+  text-align: start;
+  margin: 1rem;
+  padding: 2px;
+  background: linear-gradient(rgba(0, 0, 0, 0.938), rgba(0, 0, 0, 0.74)), url("https://static.wixstatic.com/media/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg/v1/fill/w_734,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg");
+  opacity: 0.7; }
+  div .tituloIndex .abajito {
+    font-size: 50px;
+    font-weight: bold;
+    color: #CEC2C2;
+    text-align: end; }
+    div .tituloIndex .abajito .imagenDeRevelado {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+
+div .carrusel {
+  width: 80%; }
+  div .carrusel .carousel-item {
+    height: 500px; }
+    div .carrusel .carousel-item .item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 500px; }
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  div .preservar {
+    color: #CEC2C2;
     font-size: 20px;
-    background-color: #603A3B;
-    border-radius: 10px; }
-  div .descubrirGaleria a {
-    text-decoration: none;
-    color: #1a1a1a;
-    background-color: #603A3B;
-    border-radius: 10px; }
-    div .descubrirGaleria a:hover {
-      background-color: white;
-      text-decoration: none;
-      transform: scale(1.2);
-      border-radius: 10px;
-      opacity: 1;
-      text-decoration: none; }
-      div .descubrirGaleria a:hover:visited {
-        text-decoration: none; }
+    padding: 2px;
+    margin: 7px;
+    text-align: justify;
+    text-justify: distribute;
+    font-family: 'Roboto Mono', monospace; }
+
+div .mujeresEn {
+  color: #eee;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 footer {
   display: flex;
@@ -111,50 +100,61 @@ footer {
   justify-content: center;
   background-color: #1a1a1a;
   bottom: 0px; }
-  footer nav {
+  footer .pieDePagina {
     background-color: #1a1a1a; }
-  footer div {
-    color: white;
-    opacity: 0.9; }
-    footer div .logoRedes {
-      width: 30px;
-      height: 30px;
-      margin-left: 50px;
-      padding: 5px; }
-      footer div .logoRedes .textoFooter {
-        color: white;
-        opacity: 1;
-        font-size: medium; }
+    footer .pieDePagina div {
+      color: white;
+      background-color: #1a1a1a; }
+      footer .pieDePagina div .logoRedes {
+        width: 30px;
+        height: 30px;
+        margin-left: 50px;
+        padding: 5px;
+        background-color: #1a1a1a; }
+        footer .pieDePagina div .logoRedes .textoFooter {
+          color: white;
+          opacity: 1;
+          font-size: medium;
+          background-color: #1a1a1a; }
 
-img:not(.logoRedes) {
-  opacity: 0;
-  animation-name: bounceIn;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards; }
-
-@keyframes bounceIn {
-  0% {
-    opacity: 0;
-    transform: scale(1.2) translate3d(0, 0, 0); }
-  50% {
-    opacity: 0.9;
-    transform: scale(1.5); }
-  80% {
-    opacity: 1;
-    transform: scale(1.6); }
-  100% {
-    opacity: 1;
-    transform: scale(1) translate3d(0, 0, 0); } }
-
-a {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  a i {
-    background-color: #1a1a1a;
+div a {
+  text-decoration: none; }
+  div a i {
     color: white; }
 
+/*img:not(.logoRedes) {
+    opacity: 0;
+    animation-name: bounceIn;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  
+  }
+  /*@keyframes bounceIn{
+      0%{
+        opacity: 0;
+        transform: scale(1.2) translate3d(0,0,0);
+      }
+      50%{
+        opacity: 0.9;
+        transform: scale(1.5);
+      }
+      80%{
+        opacity: 1;
+        transform: scale(1.6);
+      }
+      100%{
+        opacity: 1;
+        transform: scale(1.0) translate3d(0,0,0);
+      }
+    }
+    
+
+  i {
+    color: white;
+
+  }
+*/
 .tarjetas {
   display: flex;
   align-items: center;
@@ -177,3 +177,15 @@ a {
   margin: 5rem;
   font-size: larger;
   opacity: 0.9; }
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #1a1a1a; }
+  .formulario .entradaTexto {
+    padding: 4px; }
+
+div .rango {
+  color: #CEC2C2; }

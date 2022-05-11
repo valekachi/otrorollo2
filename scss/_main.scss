@@ -1,111 +1,69 @@
 @import 'scss/variables';
-div {
-    .otroRolloTitulo {
-        padding: $padding;
-       margin: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 25px;
-        color: white;
-        opacity: 0.9;
-        object-fit: cover;
-        background-color: $negro;
-        
-    }
-}
 
 div {
-    .bienvenidx {
-        @extend .otroRolloTitulo; 
-
-        
-    }
-}
-
-div {
-    .tamañoLogo {
-        width: 200px;
-        height: 200px;
+    .tituloIndex {
+        font-family: 'Staatliches', cursive;
+        letter-spacing: 4px;
+        word-spacing: 2px;
+        color:$color;
+        font-size: 65px;
+        font-weight: bolder;
+        text-align: start;
+        margin: 1rem;
         padding: 2px;
-    }
-}
+        background: $fondoOpaco;
+        opacity: 0.7;
+            .abajito {
+                font-size: 50px;
+                font-weight: bold;
+                color: $color;
+                text-align: end;
+                    .imagenDeRevelado {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    }
+            }
+        }
+      
 div {
-    .fondoBordo {
-        background-color: map-get($cuadros, "color");
-        opacity: 0.9;
-        @include centrado;
-        color: whitesmoke;
-        margin: 20px;
-            p {
-                padding: 7px;
-                margin: 30px;
-                display: flex;
-                justify-content: center;
+    .carrusel {
+        width: 80%;
+        .carousel-item {
+            height: 500px;
+            .item img {
+                position: absolute;
+                object-fit: cover;
+                top: 0;
+                left: 0;
+                min-height: 500px;
             }
         }
     }
+}
+
+div { 
+       display: flex;
+        align-items: center;
+        justify-content: space-between;
+    .preservar {
+        color: $color;
+        font-size: 20px;
+        padding: 2px;
+        margin: 7px;
+        text-align: justify;
+        text-justify: distribute;
+        font-family: 'Roboto Mono', monospace;
+}
+}
 div {
-    .nuestrosPrincipios {
-        background-color: map-get($cuadros,"negro");
-        opacity: 0.9;
+    .mujeresEn {
+        color:#eee;
+        font-size: 35px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
-        margin: 10px;
-        color:white;
-    }
-    }
-
-
-div {
-    .revelarJuntos {
-        background-color: map-get($cuadros,"gris");
-        border-radius: 12px;
-        padding: 10px;
-        margin: 10px;
-        color:#1a1a1a;
-        font-weight: 900;
-        
-    }
-}
-div {
-    .descubrirGaleria {
-        background-color:#1a1a1a;
-        opacity: 0.9;
-        color:white;
-        border-radius: 12px;
-        text-align: center;
-            h1 {
-                color: #1a1a1a;
-                font-size: 20px;
-                background-color: $color;
-                border-radius: 10px;
-            }
-            a {
-                text-decoration: none;
-                color:#1a1a1a;
-                background-color: $color;
-                border-radius: 10px;
-                
-                    &:hover {
-                        background-color: white;
-                        text-decoration: none;
-                        transform: scale(1.2);
-                        border-radius: 10px;
-                        opacity: 1;
-                        text-decoration: none;
-                            &:visited {
-                                text-decoration: none;
-
-
-    
-                            }
-                    }
-            }
-
-
     }
 }
 

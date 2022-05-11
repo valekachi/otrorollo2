@@ -1,0 +1,17 @@
+@import 'scss/variables';
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $negro;
+        .entradaTexto {
+            padding: 4px;
+        }
+}
+div {
+    .rango {
+        color: $color;
+    }
+}

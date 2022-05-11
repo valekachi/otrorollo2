@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/5cdabeec61.js" crossorigin="anonymous"></script>
     <meta name="description" content="Laboratorio de fotografía analógica en Montevideo, Uruguay OTRO ROLLO LAB">
@@ -17,27 +17,30 @@
 </head>
 <body class="index-fondo">
 <header> 
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark dark container-fluid row justify-content-center">
     <div class="container-fluid">
+      <div class="d-flex justify-content-end">
+        <img src="./images/logootrorollo.jpg" class="img-fluid tamañoLogo rounded-circle" alt="Logo de Otro Rollo Lab">
+        </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link  link-white active" href="index.html">HOME</a>
+            <a class="nav-link link-white  active" href="index.html">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link link-white active" href="colectivo.html">COLECTIVO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-white active" href="contacto.html">CONTACTO</a>
+            <a class="nav-link link-white  active" href="contacto.html">CONTACTO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-white active" href="galeria.html">GALERÍA</a>
+            <a class="nav-link link-white  active" href="galeria.html">GALERÍA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link-white active" href="servicios.html">SERVICIOS</a>
+            <a class="nav-link link-white  active" href="servicios.html">SERVICIOS</a>
           </li>
         </ul>
         
@@ -46,69 +49,90 @@
   </nav>    
 </header>
 <main>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="d-flex justify-content-center">
-                <h1 class="otroRolloTitulo  animate__animated animate__pulse">Laboratorio de fotografía analógica "Otro Rollo"</h1>
-                
-            </div>
-            </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="d-flex justify-content-center">
-              <h2 class="bienvenidx">¡Bienvenidx a nuestro sitio!</h2>
-            </div>   
+<div class="row justify-content-space-around">
+        <div class="col-md-6">
+        <h1 class="tituloIndex">OTRO ROLLO LAB.<br><span class="abajito">FOTOGRAFÍA ANALÓGICA<br>EN URUGUAY</span></h1>
         </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="d-flex justify-content-center">
-        <img src="./images/logootrorollo.jpg" class="img-fluid tamañoLogo rounded-circle" alt="Logo de Otro Rollo Lab">
+        <div class="col-md-6">
+          <img src="https://payload.cargocollective.com/1/2/65109/3781122/Lobera_Espacio%20revelador_2012_.jpg" class="img-fluid p-2 imagenDeRevelado" alt="Revelado de una imagen">
         </div>
         
+    </div>
+    <div class="row">
+        <div class="col-md-12 justify-content-center bg-dark">
+          <div id="carouselExampleIndicators" class="carousel slide carrusel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/estatua.JPG" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/cuartooscuro.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/atkins.jpg" class="d-block w-100 img-fluid" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </div>
+<div class="row">
+  <div class="col-md-6">
+    <h3 class="tituloIndex">Mujeres, arte, lucha y otros rollos</h3>
+  </div>
+</div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <p class="preservar">
+          Para nuestro colectivo es importante -y necesario- visibilizar el trabajo de las mujeres y disidencias en el amplio mundo de la fotografía. Son muchas las precursoras y, ¡creemos que merecen ser recordadas! OTRO ROLLO LAB está compuesto por mujeres que apoyan a otras mujeres en el mundo audiovisual.
+          En el mundo de la fotografía, como en otros muchos, cuando pensamos en grandes profesionales nos vienen a la mente mayoritariamente nombres masculinos: Cartier-Bresson, Capa, Brasai, Newman, etc. ¿Quiere esto decir que no ha habido mujeres en la historia de la fotografía? Nada más lejos de la realidad, las mujeres han jugado, y siguen jugando, un papel muy importante en el mundo de la fotografía.
+          </p>
       </div>
-      
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-3 fondoBordo">
-        <p class="padding"> &#10084; Colectivo comprometido con la lucha de las minorías</p>
-        </div>
-        <div class="col-md-3 fondoBordo">
-        <p class="padding">&#10084; Nos importa que la fotografía analógica esté al alcance de todxs!</p>
-        </div>
-        <div class="col-md-3 fondoBordo">
-        <p class="padding">&#10084; Nos reinventamos cada día</p>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-        <p class="nuestrosPrincipios">Es un placer -y un arte- para nosotrxs tomar fotos, revelarlas, digitalizarlas, jugar con sus azares, sus errores y las técnicas.<br>Desde este sentir es que te invitamos a conocer más sobre nuestro proyecto</p>
-        </div>
-        <div class="col-md-6">
-        <p class="nuestrosPrincipios">Participamos de manera activa en la comunidad a través de festivales, residencias, proyectos, colaboraciones y contrataciones<br>¡Somos felices cuando las personas con las que co-creamos se sienten satisfechas!</p>
-        </div>   
-    </div>
-    <div class="row justify-content-center">
       <div class="col-md-5">
-        <p class="revelarJuntos">
-          &#128247; OtroRolloLab ofrece servicios de revelado; podemos hacerlo por tí y hacertelo llegar. Asimismo, brindamos la experiencia de que puedas venir a aprender a revelar con nosotrxs y llevarte tus producciones, apoyamos la filosofia "HAZLO TU MISMX". Proximamente más información en nuestra seccion de Servicios. &#128247; </p>
-        </p>
+        <figure class="figure">
+          <img src="http://50mmfotografas.com/wp-content/uploads/2018/01/dora-maar-por-man-ray.jpg" class="figure-img img-fluid rounded p-2" alt="...">
+          <figcaption class="figure-caption text-end white">Dora Maar fotografiada por Man Ray</figcaption>
+        </figure>
+      </div>  
+    </div>
+    <div class="row bg-light">
+      <div class="col-md-4">
+          <figure class="figure">
+            <img src="https://graffica.info/wp-content/uploads/2017/04/Vivian-Maier-009.jpg" class="figure-img img-fluid rounded p-2" alt="Vivian Mayer">
+            <figcaption class="figure-caption text-end white">Vivian Mayer - Nueva York</figcaption>
+          </figure>
+        </div>  
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="https://i.pinimg.com/564x/c5/ec/26/c5ec26054cd62b37ce43cc2339d331a7.jpg" class="figure-img img-fluid rounded p-2" alt="...">
+            <figcaption class="figure-caption text-end white">1967 Czechoslovakia Gypsy Gir</figcaption>
+          </figure>
+        </div>  
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lange-MigrantMother02.jpg/1200px-Lange-MigrantMother02.jpg" class="figure-img img-fluid rounded p-2" alt="...">
+            <figcaption class="figure-caption text-end white">Dorothea Lange: Migrant Mother, Nipomo, California</figcaption>
+          </figure>
+        </div>  
       </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-md-10 justify-content-center">
-            <h2 class="descubrirGaleria"><a href="galeria.html" class="display-6"><button type="button" class="btn"><span class="display-5">¡CHEQUEÁ NUESTRA GALERIA!</span></button></a></h2>
-            
-        </div>
-    </div>
+    
 
-    </div>
 </main>
-<footer>
-  <nav class="navbar bottom-0 navbar-light opacity-75">
+<footer class="pieDePagina">
+  <div class="navbar bottom-0 opacity-75">
     <a class="navbar-brand" href="https://www.instagram.com/otrorollo.lab/"><i class="fa-brands fa-instagram-square"></i></a>
     <a class="navbar-brand" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
     <a class="navbar-brand" href="https://www.web.whatsapp.com/"><i class="fa-brands fa-whatsapp-square"></i></a>
@@ -116,7 +140,7 @@
       <p class="text-white p-2">OTRO ROLLO LAB. MONTEVIDEO, URUGUAY.</p>
     </div>
 
-  </nav>
+  </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 </body>

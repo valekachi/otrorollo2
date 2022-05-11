@@ -1,40 +1,60 @@
 @import 'scss/variables';
 
 body {
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    background-color: #1a1a1a;
+    box-sizing: content-box;
+    
 }
 
 .index-fondo {
     width: 100%;
     height: 100vh;
-    background-image: url('https://static.wixstatic.com/media/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg/v1/fill/w_734,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg');
+    background: $fondoflores;
     background-size: cover;
     position: relative;
+
 }
+
+div {
+        .tamañoLogo {
+            width: 80px;
+            height: 80px;
+            padding: 2px;
+        }
+    }
 nav {
-    background-color: #1a1a1a;
-    opacity: 0.7;
+    background: $letrasflores;
+    color: $negro;
+    opacity: 0.9;
 div {   
-    padding: 3px;
-    
+    padding: 1px;
+    color: $negro;
     ul {
         list-style-type: none;
-        padding: 2px;
+        padding: 1px;
         li {
-        padding: 5px;
+        padding: 2px;
             a {
             text-decoration: none;
-            color: white;
-            font-size: 20px;
+            font-size: 18px;
                 &:hover {
-                background-color: $color;
+                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://static.wixstatic.com/media/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg/v1/fill/w_734,h_490,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0da696_2ed3a44f82da427d8fa368b0ede5ddb1~mv2.jpg');
                 text-decoration: none;
-                transform: scale(1.2);
-                border-radius: 10px;
+                /*transform: scale(1.2);*/
+                border-radius: 5px;
                 opacity: 1;
+                color: $color;
+                &:visited {
+                    text-decoration: none;
+                }
+                
+                    
+                }
                     }
                 }
             }
         }
     }
-}
+
+

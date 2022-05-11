@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <script src="https://kit.fontawesome.com/5cdabeec61.js" crossorigin="anonymous"></script>
   <meta name="description" content="Laboratorio de fotografía analógica en Montevideo, Uruguay OTRO ROLLO LAB">
@@ -16,84 +16,88 @@
   <title>Otro Rollo - Contacto y comunicación con laboratorio analógico en Montevideo</title>
 </head>
 <body class="index-fondo">
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark opacity-75">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link  link-white" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-white" href="colectivo.html">COLECTIVO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-white" href="contacto.html">CONTACTO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-white" href="galeria.html">GALERÍA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-white" href="servicios.html">SERVICIOS</a>
-          </li>
-        </ul>
-        
+  <header> 
+    <nav class="navbar navbar-expand-lg navbar-dark dark container-fluid">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-end">
+          <img src="./images/logootrorollo.jpg" class="img-fluid tamañoLogo rounded-circle" alt="Logo de Otro Rollo Lab">
+          </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link link-white  active" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-white active" href="colectivo.html">COLECTIVO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-white  active" href="contacto.html">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-white  active" href="galeria.html">GALERÍA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-white  active" href="servicios.html">SERVICIOS</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>    
+  </header>
+<main>
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="tituloIndex">Contacto con Otro Rollo<BR><HR>NOS IMPORTA TU IMPRESIÓN</h3>
+    </div>   
+    <div class="col-md-6">
+      <img src="https://bilbaoarte.org/cms/wp-content/uploads/2016/06/BilbaoArte-28.jpg" alt="Mujer revelando" class="img-fluid">
+    </div>
+  </div>
+    <div class="row">
+  <form action="..." class="justify-content-center formulario col-md-12 p-5">
+    <div class="input-group entradaTexto">
+      <span class="input-group-text">Nombre</span>
+      <input type="text" aria-label="Nombre" class="form-control">
+    </div>
+    <div class="input-group entradaTexto">
+      <span class="input-group-text">Tipo de consulta</span>
+      <input type="text" aria-label="tipodeconsulta" class="form-control">
+    </div>
+    <div class="input-group entradaTexto">
+      <span class="input-group-text">E-mail</span>
+      <input type="email" aria-label="Email" class="form-control">
+    </div>
+      <div class="input-group entradaTexto">
+        <span class="input-group-text">Tu mensaje</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+
+
+      <div class="row">
+       <div class="col-md-12">
+            <label for="customRange1" class="form-label entradaTexto preservar p-3">¿Qué tan útil te resultó este sitio para informarte sobre el ámbito de la fotografía analógica en Uruguay?</label>
+    <input type="range" class="form-range rango" id="customRange1">
+    <button type="submit" class="btn btn-light m-5">Enviar!</button> 
+       </div> 
       </div>
     </div>
-  </nav>
-</header>
-<main>
-<div class="container">
-  <h1 class="textoBordo padding text-center">contacto con otro rollo lab - laboratorio fotografía analógica -</h1>
-  <form class="row g-3 row-padding fondoBordo justify-content-center">
-    <div class="col-md-3">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
-    </div>
-    <div class="col-md-3">
-      <label for="name" class="form-label">nombre y apellido</label>
-      <input type="name" class="form-control" id="name">
-    </div>
-    <div class="col-md-3">
-      <label for="inputremitente" class="form-label">Remitente</label>
-      <select id="inputremit" class="form-select">
-        <option selected>Elige uno</option>
-        <option>Institución Educativa</option>
-        <option>Empresas</option>
-        <option>Colectivos</option>
-        <option>Artistas</option>
-        <option>Otro</option>
-      </select>
-    </div>
-    <div class="col-md-4">
-      <label for="comentario" class="form-label">Tu comentario</label>
-      <textarea class="form-control" id="inputcomentario"></textarea>    
-      <div class="row justify-content-center row-padding">
-      <div class="col-12 justify-content-center">
-      <button type="submit" class="btn btn-dark">Enviar</button>
-    </div>
-    </div>
-
-  </div>
-    
-  </div>
-    
   </form>
-</div>
+    
 </main>
-<footer>
-  <nav class="navbar bottom-0 navbar-light opacity-75">
+<footer class="pieDePagina">
+  <div class="navbar bottom-0 opacity-75">
     <a class="navbar-brand" href="https://www.instagram.com/otrorollo.lab/"><i class="fa-brands fa-instagram-square"></i></a>
     <a class="navbar-brand" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
     <a class="navbar-brand" href="https://www.web.whatsapp.com/"><i class="fa-brands fa-whatsapp-square"></i></a>
     <div class="container-fluid d-flex justify-content-center">
-    <p class="text-white p-2">OTRO ROLLO LAB. MONTEVIDEO, URUGUAY.</p>
+      <p class="text-white p-2">OTRO ROLLO LAB. MONTEVIDEO, URUGUAY.</p>
     </div>
 
-  </nav>
+  </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 </body>
