@@ -176,28 +176,22 @@ div a {
     opacity: 1;
     transform: scale(1) translate3d(0, 0, 0); } }
 
-.tarjetas {
+.videoRevelado {
+  padding: 6px;
+  margin: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.serviciosCards {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 5rem;
-  margin: 5rem;
-  background-color: #211A19;
-  opacity: 0.9; }
-  .tarjetas .revelando {
-    background-color: #1a1a1a;
-    color: white; }
-
-.queresRevelar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #211A19;
-  color: white;
-  padding: 2.5rem;
-  margin: 5rem;
-  font-size: larger;
-  opacity: 0.9; }
+  margin-top: 10px;
+  padding: 5px; }
+  .serviciosCards .tarjeta {
+    background-color: #CEC2C2;
+    border: solid 5px black; }
 
 .formulario {
   display: flex;
